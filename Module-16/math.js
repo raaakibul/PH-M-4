@@ -29,3 +29,9 @@ console.log(subtraction);
 console.log(multiplication);
 console.log(division);
 console.log(remainder);
+
+// shorthand 
+var tomatoes = 25;
+console.log(tomatoes);
+var tomatoes = 10;
+console.log(tomatoes);
