@@ -14,3 +14,18 @@ console.log(letter);
 
 var serious = true
 console.log(serious); 
+
+// operators
+var num1 = 12
+var num2 = 20
+var addition = num1 + num2
+var subtraction = num1 - num2
+var multiplication = num1 * num2
+var division = num1 / num2
+var remainder= num1 % num2
+
+console.log(addition);
+console.log(subtraction);
+console.log(multiplication);
+console.log(division);
+console.log(remainder);
