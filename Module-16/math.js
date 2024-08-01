@@ -31,7 +31,12 @@ console.log(division);
 console.log(remainder);
 
 // shorthand 
+// declaration
 var tomatoes = 25;
 console.log(tomatoes);
+// update variable
 var tomatoes = 10;
+console.log(tomatoes);
+
+tomatoes += 1;
 console.log(tomatoes);
