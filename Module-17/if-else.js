@@ -1,5 +1,5 @@
 const salary = 2100;
-if(salary>3000){
+if(salary>2000){
     console.log(salary);
 }
 else{
