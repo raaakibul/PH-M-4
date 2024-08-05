@@ -1,5 +1,5 @@
-const isExpensive: true;
-if(isExpensive) {
+const isExpensive = true;
+if(!isExpensive) {
     console.log("yes");
 }
 else{
