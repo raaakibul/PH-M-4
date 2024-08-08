@@ -7,3 +7,11 @@ while(num <= 10){
 }
 
 console.log(sum);
+
+// odd numbers
+
+for(var i = 0; i <20; i++){
+    if(i%2===1){
+        console.log(i);
+    }
+}
