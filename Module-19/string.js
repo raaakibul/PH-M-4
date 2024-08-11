@@ -21,3 +21,8 @@ let sen = "I am learning new lessons"
 for(const letter of sen) {
     console.log(letter);
 }
+
+let reverse = ''
+for(const letter of sen) {
+    console.log(letter);
+}
