@@ -10,3 +10,14 @@ console.log(part);
 
 const sentence = "He lives in a country name Bangladesh";
 console.log(sentence.split(" "));
+
+const first = "Rakibul"
+const last = "Islam"
+const fullname = firs + ' ' + last
+console.log(fullname);
+console.log(first.concat);
+
+let sen = "I am learning new lessons"
+for(const letter of sen) {
+    console.log(letter);
+}
