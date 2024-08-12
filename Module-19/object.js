@@ -9,5 +9,11 @@ const bottle = {
     brand:'Watt',
     price: 12,
     color:'White',
-    isClean:false,
+    isClean:false
 }
+console.log(bottle);
+const subject = {
+    name:'Biology',
+    teacher:'Rashed'
+}
+console.log(subject);
