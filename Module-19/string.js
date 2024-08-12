@@ -25,4 +25,7 @@ for(const letter of sen) {
 let reverse = ''
 for(const letter of sen) {
     console.log(letter);
+    reverse = letter + reverse
 }
+console.log(reverse);
+
