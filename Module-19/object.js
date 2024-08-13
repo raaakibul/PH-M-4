@@ -17,3 +17,12 @@ const subject = {
     teacher:'Rashed'
 }
 console.log(subject);
+
+const person ={
+    name:'Abdur Rahim',
+    age:25,
+    professsion:'Web ddeveloper',
+    salary:18000
+}
+console.log(person);
+console.log(person.name);
