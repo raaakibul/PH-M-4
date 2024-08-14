@@ -8,3 +8,14 @@ const mobile ={
 for(const prop in mobile){
     console.log(prop);
 }
+
+const pen = {
+    brand:'Apple',
+    price:10,
+    color:'black'
+}
+
+const pencil = new Object()
+console.log(pencil);
+const = rubber = Object.create({})
+console.log(rubber);
