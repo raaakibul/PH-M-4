@@ -19,3 +19,8 @@ const pencil = new Object()
 console.log(pencil);
 const rubber = Object.create({})
 console.log(rubber);
+
+const friends = ['Abed', 'Nope', 'Rafi','Refad']
+for(const friend of friends){
+    console.log(friend);
+}
