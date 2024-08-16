@@ -17,5 +17,5 @@ const pen = {
 
 const pencil = new Object()
 console.log(pencil);
-const = rubber = Object.create({})
+const rubber = Object.create({})
 console.log(rubber);
