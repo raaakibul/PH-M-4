@@ -24,3 +24,7 @@ const friends = ['Abed', 'Nope', 'Rafi','Refad']
 for(const friend of friends){
     console.log(friend);
 }
+
+for(let i=0;i<5;i++){
+    console.log(i);
+}
