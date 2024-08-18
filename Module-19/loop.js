@@ -39,3 +39,4 @@ const rev_numbers =[];
 for(const num of numbers){
     console.log(numbers);
 }
+console.log(rev_numbers);
