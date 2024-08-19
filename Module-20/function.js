@@ -10,4 +10,4 @@ function add(x, y){
     console.log(addition);
 }
 
-add(1, 2)
+add(123, 2542)
