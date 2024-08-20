@@ -12,3 +12,19 @@ function add(x, y){
 
 add(123, 2542)
 
+
+function evenSize(str){
+    const size = str.length;
+    console.log(str, size);
+    if(size%2 == 0){
+        console.log('Even size: ', size);
+        return true;
+    }
+    else{
+        console.log("odd size: ", size);
+        return false;
+    }
+}
+evenSize('Dhaka')
+evenSize('Ctg')
+
