@@ -28,3 +28,15 @@ function evenSize(str){
 evenSize('Dhaka')
 evenSize('Ctg')
 
+function doubleSize(number, dodouble){
+    if(dodouble === true){
+        const result = number * 2;
+        return result;
+    }
+    else{
+        const result = number * 2 + 1;
+        return result;
+    }
+}
+
+console.log(doubleSize(5,true));
