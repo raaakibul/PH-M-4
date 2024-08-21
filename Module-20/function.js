@@ -47,4 +47,10 @@ function numberOfElements(numbers){
     return len;
 }
 
-numberOfElements([12,45,78,4545,233])
+console.log(numberOfElements([12,45,78,4545,233]));
+
+function getAge(person){
+    const age = person.age;
+    return age;
+}
+console.log(getAge(10));
