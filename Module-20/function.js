@@ -40,3 +40,11 @@ function doubleSize(number, dodouble){
 }
 
 console.log(doubleSize(5,true));
+console.log(dodouble(5, true));
+
+function numberOfElements(numbers){
+    const len = numbers.length;
+    return len;
+}
+
+numberOfElements([12,45,78,4545,233])
