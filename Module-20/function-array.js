@@ -4,7 +4,6 @@ function sumofNumbers(numbers){
         sum = sum + number;
     }
     return sum;
-
 } 
 const nums = [45,56,78,78];
 const sum = sumofNumbers(nums);
