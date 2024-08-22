@@ -5,6 +5,6 @@ function sumofNumbers(numbers){
     }
     return sum;
 } 
-const nums = [45,56,78,78];
+const nums = [45,56,78,78,456,789];
 const sum = sumofNumbers(nums);
 console.log('Sum of numbers: ', sum);
