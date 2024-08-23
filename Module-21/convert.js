@@ -3,5 +3,11 @@ function inchToFeet(inch){
     return feet;
 }
 
+function inchToFeet2(inch){
+    const feetfraction = inch /12;
+    const feetNumber = parseInt(feetfraction);
+}
+const feet2 = inchToFeet2(75);
+console.log(feet2);
 const height = inchToFeet(68);
 console.log(height);
