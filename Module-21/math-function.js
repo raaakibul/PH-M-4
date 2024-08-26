@@ -12,3 +12,4 @@ console.log("Maximum :",max);
 console.log(Math.PI);
 console.log(Math.sqrt(54654));
 console.log(Math.abs(-3.125));
+console.log(Math.round(10.568));
