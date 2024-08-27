@@ -13,3 +13,6 @@ console.log(Math.PI);
 console.log(Math.sqrt(54654));
 console.log(Math.abs(-3.125));
 console.log(Math.round(10.568));
+console.log(Math.ceil(2.00001));
+console.log(Math.random());
+console.log(Math.random()*10);
