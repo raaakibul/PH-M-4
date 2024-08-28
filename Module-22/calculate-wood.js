@@ -19,5 +19,5 @@ function calculateWoods(chair, table, bed) {
     return totalWood;
 }
 
-const result = calculateWoods(0,0,1);
+const result = calculateWoods(1,1,2);
 console.log("Woods calculated:", result);
