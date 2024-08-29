@@ -13,3 +13,21 @@ function getMinimum(numbers){
 }
 const result = getMinimum(price);
 console.log("Minimum: " + result);
+
+const phoness = [
+
+    { name: 'Samsung', price: 100000, camera:'12mp', color: 'black'},
+    { name: 'Apple', price: 120000, camera:'25mp', color: 'Gray'},
+    { name: 'Motorola', price: 110000, camera:'20mp', color: 'Tomato'},
+    { name: 'Sony', price: 110000, camera:'22mp', color: 'Golden'},
+    { name: 'HTC', price: 150000, camera:'26mp', color: 'black'},
+]
+
+function getPhones(phones){
+    for(const phone of phones){
+        // console.log(phone);
+    }
+}
+
+const cheap = getPhones(phones);
+console.log("Cheapest phones",cheap);
