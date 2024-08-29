@@ -14,7 +14,7 @@ function getMinimum(numbers){
 const result = getMinimum(price);
 console.log("Minimum: " + result);
 
-const phoness = [
+const phones = [
 
     { name: 'Samsung', price: 100000, camera:'12mp', color: 'black'},
     { name: 'Apple', price: 120000, camera:'25mp', color: 'Gray'},
@@ -24,9 +24,14 @@ const phoness = [
 ]
 
 function getPhones(phones){
+    let minPrices =phones[0];
     for(const phone of phones){
         // console.log(phone);
+        if(phone < minPrices){
+            minPrices = phone;
+        }
     }
+    return minPrices;
 }
 
 const cheap = getPhones(phones);
