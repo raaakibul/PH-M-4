@@ -9,7 +9,7 @@ function getShopping(products){
     let sum = 0;
     for(const product of products){
         // console.log(product);
-        sum = sum + product.price[i];
+        sum = sum + product.price;
     }
     return sum;
 }
