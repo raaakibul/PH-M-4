@@ -23,3 +23,13 @@ function fullName(first, second) {
 }
 const full = fullName(5, 'Islam');
 console.log(full);
+
+function getPrice(product){
+    if(typeof product !== 'object'){
+        return 'please provide an object';
+    }
+    const price = product.price;
+    return price;
+}
+const price = getPrice({name:'A', price:35, color:'black'});
+console.log(price);
