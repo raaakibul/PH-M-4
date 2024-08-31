@@ -12,8 +12,14 @@ console.log(result2);
 
 
 function fullName(first, second) {
+    if(typeof first !== 'string'){
+        return 'Please enter a string';
+    }
+    else if(typeof second !== 'string'){
+        return 'Please enter a string';
+    }
     const full = first + ' ' + second;
     return full;
 }
-const full = fullName('Rakibul', 'Islam');
+const full = fullName(5, 'Islam');
 console.log(full);
