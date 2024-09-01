@@ -35,7 +35,10 @@ const price = getPrice({name:'A', price:35, color:'black'});
 console.log(price);
 
 function getSecond(numbers){
-    console.log(typeof numbers);
+    // console.log(typeof numbers);
+    if(Array.isArray(numbers)=== false){ 
+        return 'Provide an array of numbers';
+    }
     const second = numbers[1];
     return second;
 }
