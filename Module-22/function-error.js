@@ -33,3 +33,12 @@ function getPrice(product){
 }
 const price = getPrice({name:'A', price:35, color:'black'});
 console.log(price);
+
+function getSecond(numbers){
+    console.log(typeof numbers);
+    const second = numbers[1];
+    return second;
+}
+
+const second = getSecond([1,25,45])
+console.log(second);
