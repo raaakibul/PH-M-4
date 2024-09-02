@@ -12,3 +12,9 @@ const products2 ={
 }
 
 console.log(products2);
+
+function add(num1, num2){
+    console.log(num1, num2);
+    console.log(arguments);
+}
+add(12,54,78,45,)
